@@ -28,6 +28,6 @@ $ python main.py path/to/textfile
 ```
 
 ## References
-The dataset (the file __spam.csv__) was obtained [here](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
+The dataset (the file __spam.csv__) was obtained from [here](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
 
 For more details on how the model (multinomial naive bayes) was chosen, check out my kaggle kernel [here](https://www.kaggle.com/devghiles/step-by-step-solution-with-f1-score-as-a-metric).
