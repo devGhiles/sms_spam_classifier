@@ -29,6 +29,8 @@ clf = MultinomialNB(alpha=0.1)
 clf.fit(X, y)
 
 
-# save the model
-with open('model.pkl', 'wb') as f:
+# save the model and the vectorizer
+with open('clf.pkl', 'wb') as f:
     pickle.dump(clf, f)
+with open('vectorizer.pkl', 'wb') as f:
+    pickle.dump(tfidf_vectorizer, f)
